@@ -3,8 +3,8 @@
   /* we don't know how to make mobile versions of websites yet, */
   /* so here we've set a minimum page width */
   max-width: 1600px;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-column: auto;
   flex-wrap: wrap;
   overflow: hidden;
   /* here we've set a maximum page width */
@@ -20,7 +20,7 @@
   background: #2A2C2F;
 }
 
-h1, h2, h3, h4, h5, p, ul, li{
+h1, h2, h3, h4, h5, p, ul, li, a{
   color: #FFFFFF;
 }
 
@@ -28,6 +28,11 @@ ul {
   list-style-type: none;
   padding: 0px;
   margin: 0px;
+}
+
+span {
+  display: block;
+  margin-top: 10px;
 }
 
   

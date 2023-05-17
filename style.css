@@ -129,20 +129,6 @@
     grid-gap: 10px;
   }
   
-  .gallery__item {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    margin: 0;
-  }
-  
-  .gallery__image {
-    width: 285px;
-    height: 213px;
-    min-height: 100%;
-    max-height: 100%;
-    object-fit: cover;
-  }
   .photo-grid__item{
     width: 285px;
     height: 213px;
@@ -151,83 +137,108 @@
     object-fit: cover;
   }
   
-  .gallery__item:nth-child(7) {
-    
+
+
+  /* places */
+  .places {
+    display: grid;
+    grid-column: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 987px;
+    height: 4098px;
   }
   
-  .gallery__item:nth-child(5) {
-
+  .places__place {
+    display: grid;
+    gap: 10px;
+    height: 756px;
+    width: 100%;
   }
   
-  .gallery__item:nth-child(1) {
-
-  }
-  
-  .gallery__item:nth-child(3) {
-
-  }
-  
-  .gallery__item:nth-child(2) {
-
-  }
-  
-  .gallery__item:nth-child(4) {
-
-  }
-  
-  .gallery__item:nth-child(6) {
-
+  .places__place__title{
+    grid-column: 1;
+    grid-row: 1;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
   }
 
-
-
-
-
-
-
-
-  .header__container {
-    width: 90%;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    height: 60px;
+  .places__place__image{
+    grid-column: 1;
+    grid-row: 2;
+    width: 460px;
+    height: 460px;
   }
-  
-  .header__title {
-    color: #ffffff;
-    font-size: 1.2rem;
-    font-weight: bold;
+
+  .places__place__btn-paragraph{
+    grid-column: 1;
+    grid-row: 3;
+    width: 304px;
+    height: 48px;
+    font-style: normal;
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    background: #0278FE;
+    color: #fff;
+    border-radius: 5px;
   }
-  
-  .cover {
-    min-height: calc(60vh - 60px);
-    background-image: url(https://practicum-content.s3.us-west-1.amazonaws.com/frontend-developer/responsive/moved_cover.png);
-    background-size: cover;
-    background-position: center;
-    color: #ffffff;
-    box-sizing: border-box;
-    padding: 161px 0 98px;
+
+  .places__place__website{
+    grid-column: 2;
+    grid-row: 1;
+    display: grid;
+    grid-column: auto;
+    width: 456px;
+    height: 70px;
+    align-self: end;
   }
-  
-  .cover__container {
-    width: 90%;
-    margin: auto;
+
+  .places__place__website__artist{
+    width: 41px;
+    height: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #AAAAAA;
   }
-  
-  .cover__title {
-    font-size: 6rem;
-    line-height: 1;
-    max-width: 849px;
+
+  .places__place__website__url-heading{
+    width: 456px;
+    height: 44px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
   }
-  
-  .cover__subheading {
-    font-size: 1rem;
-    max-width: 610px;
-    margin-top: 50px;
-    line-height: 1.5;
+
+  .places__place__paragraph{
+    grid-column: 2;
+    grid-row: 2/span 2;
+    width: 484px;
+    height: 232px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    color: #FFFFFF;
   }
-  
+
+
+
+
+
+
+
+
+
   .content {
     padding: 60px 0;
     background-color: #fff;
