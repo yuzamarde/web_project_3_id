@@ -231,7 +231,39 @@
     color: #FFFFFF;
   }
 
+  /* cover */
+  .cover{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1184px;
+    height: 740px;
+  }
 
+  .cover__background{
+    position: absolute;
+  }
+  .cover__overlay{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1184px;
+    height: 740px;
+    background: #2A2C2F;
+    opacity: 0.3;
+  }
+
+  .cover__title{
+    width: 1184px;
+    justify-content: center;
+    position: absolute;
+    height: 152px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    text-align: center;
+    z-index: 1;
+  }
 
 
 
