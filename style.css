@@ -118,7 +118,7 @@
 
 
   /* photo-grid */
-  .gallery {
+  .photo-grid {
     min-height: calc(100vh - 80px);
     display: grid;
     grid-template-columns: repeat(4, 1fr) 2fr 200px;
