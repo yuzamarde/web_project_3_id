@@ -35,6 +35,10 @@ span {
   margin-top: 10px;
 }
 
+button{
+  cursor: pointer;
+}
+
   
 /* .page {
   max-width: 1440px;
