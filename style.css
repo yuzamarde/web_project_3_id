@@ -292,58 +292,34 @@
     line-height: 16px;
   }
   
-  @media screen and (max-width : 425px) {
-    .cover__title {
-      font-size: 4rem;
-    }
-    .cover__subheading {
-      font-size: 0.8rem;
-    }
-    .content__columns {
-      flex-direction: column;
-    }
-    .content__column {
-      width: 100%;
-      margin-bottom: 60px;
-    }
-  }
-  
-  @media screen and (max-width : 812px) and (max-height : 425px) {
-    .content__column {
-      width: 100%;
-      margin-bottom: 60px;
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-    }
-    .content__column-image {
-      width: 30%;
-      padding-bottom: 30%;
+  @media screen and (max-width : 768px) {
+      /* header */
+
+      /* lead */
+
+      /* intro */
+
+      /* photo-grid */
+
+      /* places */
+
+      /* cover */
+
+      /* footer */
     }
   
-    .column__description {
-      width: calc(70% - 40px);
-    }
-  
-    .content__column-title {
-      margin-top: 0;
-      font-size: 1.5em;
-      margin-bottom: 18px;
-    }
-    .column__quote {
-      font-size: 0.9em;
-    }
-  
-    .column__quote-cite {
-      font-size: 0.7em;
-      line-height: 1.5;
-    }
-  
-    .share {
-      margin-top: 18px;
-    }
-  
-    .share__text {
-      font-size: 1em;
-    }
+  @media screen and (max-width : 320px) {
+      /* header */
+
+      /* lead */
+
+      /* intro */
+
+      /* photo-grid */
+
+      /* places */
+
+      /* cover */
+
+      /* footer */
   }
