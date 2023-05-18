@@ -1,3 +1,7 @@
+body {
+  background: #2A2C2F;
+}
+
 .page {
   min-width: 360px;
   /* we don't know how to make mobile versions of websites yet, */
@@ -17,10 +21,6 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-}
-
-body {
-  background: #2A2C2F;
 }
 
 h1, h2, h3, h4, h5, h6, p, li, a{
