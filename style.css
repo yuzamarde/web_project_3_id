@@ -293,11 +293,6 @@
   }
   
   @media screen and (max-width : 768px) {
-      /* header */
-      .__logo {
-
-      }
-
       /* lead */
       .lead{
         width: 100%;
@@ -308,14 +303,9 @@
         width: 720px;
       }
     
-      .lead__subtitle{
-
-      }
-    
       .lead__image{
         width: 768px;
       }
-    
     
       /* intro */
       .intro{
@@ -403,11 +393,7 @@
         width: 309px;
         height: 60px;
       }
-    
-      .places__place__website__artist{
-
-      }
-    
+        
       .places__place__website__url-heading{
         width: 309px;
         height: 30px;
@@ -437,18 +423,6 @@
         width: 656px;
       }
     
-      .cover__subtitle{
-
-      }
-    
-      .cover__btn{
-
-      }
-    
-      .cover:hover .cover__overlay{
-      }
-
-
       /* footer */
       .footer {
         height: 30px;
