@@ -2,11 +2,11 @@
   min-width: 360px;
   /* we don't know how to make mobile versions of websites yet, */
   /* so here we've set a minimum page width */
-  max-width: 1280px;
+  max-width: 1680px;
   display: grid;
   grid-column: auto;
   flex-wrap: wrap;
-  overflow: hidden;
+  /* overflow: hidden; */
   /* here we've set a maximum page width */
   /* margin: 0 auto; */
   /* this ensures that all content is centered on screens wider than 1600px */
@@ -17,12 +17,10 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-  background: #2A2C2F;
-  overflow-x:hidden
 }
 
 body {
-  background-color: #000000;
+  background: #2A2C2F;
 }
 
 h1, h2, h3, h4, h5, h6, p, li, a{
