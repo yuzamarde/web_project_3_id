@@ -6,7 +6,7 @@ body {
   min-width: 360px;
   /* we don't know how to make mobile versions of websites yet, */
   /* so here we've set a minimum page width */
-  max-width: 1680px;
+  max-width: 1780px;
   display: grid;
   grid-column: auto;
   flex-wrap: wrap;
@@ -21,6 +21,8 @@ body {
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
+  background: #2A2C2F;
+  z-index: 1;
 }
 
 h1, h2, h3, h4, h5, h6, p, li, a{
