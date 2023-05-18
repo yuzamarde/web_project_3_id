@@ -1,8 +1,8 @@
 .page {
-  min-width: 1280px;
+  min-width: 360px;
   /* we don't know how to make mobile versions of websites yet, */
   /* so here we've set a minimum page width */
-  max-width: 1600px;
+  max-width: 1280px;
   display: grid;
   grid-column: auto;
   flex-wrap: wrap;
@@ -18,6 +18,7 @@
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
   background: #2A2C2F;
+  overflow-x:hidden
 }
 
 body {
@@ -43,28 +44,3 @@ span {
 button{
   cursor: pointer;
 }
-
-  
-/* .page {
-  max-width: 1440px;
-  margin: auto;
-  font-family: 'Inter';
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  text-rendering: optimizeLegibility;
-} */
-
-/* @font-face {
-  font-family: 'Inter';
-  src: url(https://practicum-content.s3.us-west-1.amazonaws.com/frontend-developer/responsive/moved_Inter-Regular.woff);
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: 'Inter';
-  src: url(https://practicum-content.s3.us-west-1.amazonaws.com/frontend-developer/responsive/moved_Inter-Bold.woff2);
-  font-weight: bold;
-} */

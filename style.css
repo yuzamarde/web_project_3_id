@@ -294,18 +294,175 @@
   
   @media screen and (max-width : 768px) {
       /* header */
+      .__logo {
+
+      }
 
       /* lead */
+      .lead{
+        width: 100%;
+        height: 1050px;
+      }
+    
+      .lead__title{
+        width: 720px;
+      }
+    
+      .lead__subtitle{
 
+      }
+    
+      .lead__image{
+        width: 768px;
+      }
+    
+    
       /* intro */
+      .intro{
+        width: 720px;
+        height: 600px;
+      }
+    
+      .intro__title{
+        width: 720px;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 54px;
+        line-height: 58px
+      }
+    
+      .intro__text{
+        width: 720px;
+        font-style: normal;
+        font-weight: 400;
+      }
+    
+    
+      .intro__text:nth-child(1) {
+        font-size: 24px;
+        line-height: 34px;
+      }
+    
+    
+      .intro__text:nth-child(2){
+      }
+    
+      .intro__text:nth-child(3){
+        font-size: 16px;
+        line-height: 163%;
+      }
+
 
       /* photo-grid */
+      .photo-grid {
+        width: 720px;
+        height: 1104px;
+        grid-template-columns: auto auto;
+        grid-gap: 10px;
+      }
+      
+      .photo-grid__item{
+        width: 352px;
+        height: 264px;
+        min-height: 100%;
+        max-height: 100%;
+        object-fit: cover;
+      }
 
       /* places */
 
+      .places {
+        width: 720px;
+      }
+      
+      .places__place {
+        height: fit-content;
+        width: 720px;
+      }
+      
+      .places__place__title{
+        width: 340px;
+        font-weight: 900;
+        font-size: 42px;
+        line-height: 46px;
+        align-self: top;
+      }
+    
+      .places__place__image{
+        width: 340px;
+        height: 340px;
+      }
+    
+      .places__place__btn-paragraph{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+      }
+    
+      .places__place__website{
+        width: 309px;
+        height: 60px;
+      }
+    
+      .places__place__website__artist{
+
+      }
+    
+      .places__place__website__url-heading{
+        width: 309px;
+        height: 30px;
+      }
+    
+      .places__place__paragraph{
+        width: 352px;
+        height: 260px;
+        font-size: 16px;
+      }
+
       /* cover */
+      .cover{
+        display: grid;
+        margin-left: auto;
+        margin-right: auto;
+        width: 786px;
+        align-content: center;
+        grid-row-gap: 30px;
+      }
+    
+      .cover__overlay{
+        width: 768px;
+      }
+    
+      .cover__title{
+        width: 656px;
+      }
+    
+      .cover__subtitle{
+
+      }
+    
+      .cover__btn{
+
+      }
+    
+      .cover:hover .cover__overlay{
+      }
+
 
       /* footer */
+      .footer {
+        height: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+      }
+      
+      .footer__copyright {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+      }
     }
   
   @media screen and (max-width : 320px) {
