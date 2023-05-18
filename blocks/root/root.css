@@ -10,7 +10,7 @@ body {
   display: grid;
   grid-column: auto;
   flex-wrap: wrap;
-  /* overflow: hidden; */
+  overflow: hidden;
   /* here we've set a maximum page width */
   /* margin: 0 auto; */
   /* this ensures that all content is centered on screens wider than 1600px */
