@@ -10,21 +10,17 @@
     color: #FFFFFF;
   }
 
-  @media screen and (max-width : 768px) {
-    .places__place__paragraph{
-      max-width: 352px;
-      height: fit-content;
-      font-size: 16px;
-    }
+@media screen and (max-width: 768px) {
+  .places__place__paragraph{
+    max-width: 352px;
+    font-size: 16px;
   }
+}
 
-
-  @media screen and (max-width : 320px) {
-    .places__place__paragraph{
-      grid-column: 1;
-      grid-row: 4;
-      height: fit-content;
-      max-width: 100%;
-      line-height: 163%;
-    }
+@media screen and (max-width: 320px) {
+  .places__place__paragraph{
+    grid-column: 1;
+    grid-row: 4;
+    max-width: 100%;
   }
+}
