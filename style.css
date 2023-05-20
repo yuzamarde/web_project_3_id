@@ -433,7 +433,6 @@
         height: 30px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 50px;
       }
       
       .footer__copyright {
@@ -452,8 +451,6 @@
       }
       /* lead */
       .lead{
-        margin-top: 50px;
-        margin-bottom: 50px;
         max-width: 100%;
         height: 500px;
       }
@@ -590,8 +587,6 @@
         max-width: 320px;
         height: 254px;
         object-fit: fill;
-        margin-top: 50px;
-        margin-bottom: 50px;
         background-size: cover;
         grid-row-gap: 10px;
         
