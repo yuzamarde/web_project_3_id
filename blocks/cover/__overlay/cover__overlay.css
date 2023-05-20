@@ -9,4 +9,21 @@
     opacity: 0.3;
     z-index: 2;
     transition: .5s ease;
+<<<<<<< HEAD
+=======
+  }
+  
+  @media screen and (max-width : 768px) {
+    .cover__overlay{
+      max-width: 100%;
+    }
+  }
+
+  @media screen and (max-width : 320px) {
+    .cover__overlay{
+      max-width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+>>>>>>> 7c839322962ed304eef7d67e9379261875f2f811
   }

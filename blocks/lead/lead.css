@@ -7,4 +7,21 @@
     display: grid;
     grid-template-columns: auto;
     justify-content: center;
+<<<<<<< HEAD
+=======
+  }
+
+  @media screen and (max-width : 768px) {
+    .lead{
+      width: 100%;
+      height: 1050px;
+    }
+  }
+
+  @media screen and (max-width : 320px) {
+    .lead{
+      max-width: 100%;
+      height: 500px;
+    }
+>>>>>>> 7c839322962ed304eef7d67e9379261875f2f811
   }

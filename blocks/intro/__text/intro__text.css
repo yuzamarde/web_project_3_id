@@ -4,7 +4,10 @@
     font-weight: 400;
   }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7c839322962ed304eef7d67e9379261875f2f811
   .intro__text:nth-child(1) {
     font-size: 24px;
     line-height: 34px;
@@ -20,4 +23,45 @@
   .intro__text:nth-child(3){
     font-size: 16px;
     line-height: 163%;
+<<<<<<< HEAD
+=======
+  }
+
+  @media screen and (max-width : 768px) {
+    .intro__text{
+      max-width: 720px;
+    }
+  
+  
+    .intro__text:nth-child(1) {
+      font-size: 24px;
+      line-height: 34px;
+    }
+     
+    .intro__text:nth-child(3){
+      font-size: 16px;
+      line-height: 163%;
+    }
+  }
+
+  @media screen and (max-width : 320px) {
+    .intro__text{
+      max-width: 288px;
+    }
+      
+    .intro__text:nth-child(1) {
+      font-size: 20px;
+      line-height: 30px;
+    }
+
+    .intro__text:nth-child(2) {
+      font-size: 20px;
+      line-height: 34px;
+    }
+     
+    .intro__text:nth-child(3){
+      font-size: 15px;
+      line-height: 163%;
+    }
+>>>>>>> 7c839322962ed304eef7d67e9379261875f2f811
   }

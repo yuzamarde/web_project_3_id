@@ -6,4 +6,21 @@
     max-width: 987px;
     height: auto;
     gap: 50px;
+<<<<<<< HEAD
+=======
+  }
+
+  @media screen and (max-width : 768px) {
+    .places {
+      max-width: 720px;
+    }
+  }
+
+  @media screen and (max-width : 320px) {
+    .places {
+      max-width: 320px;
+      height: auto;
+      gap: 50px;
+    }
+>>>>>>> 7c839322962ed304eef7d67e9379261875f2f811
   }

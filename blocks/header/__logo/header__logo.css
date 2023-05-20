@@ -5,4 +5,14 @@
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
+<<<<<<< HEAD
+=======
+  }
+
+  @media screen and (max-width : 320px) {
+    .header__logo{
+      max-width: 200px;
+      height: 51.85px;
+    }
+>>>>>>> 7c839322962ed304eef7d67e9379261875f2f811
   }

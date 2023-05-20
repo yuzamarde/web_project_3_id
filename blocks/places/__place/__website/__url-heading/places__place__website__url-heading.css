@@ -6,4 +6,21 @@
     font-size: 18px;
     line-height: 22px;
     color: #FFFFFF;
+<<<<<<< HEAD
+=======
+  }
+
+  @media screen and (max-width : 768px) {
+    .places__place__website__url-heading{
+      max-width: 309px;
+      height: 30px;
+    }
+  }
+
+  @media screen and (max-width : 320px) {
+    .places__place__website__url-heading{
+      max-width: 309px;
+      height: 30px;
+    }
+>>>>>>> 7c839322962ed304eef7d67e9379261875f2f811
   }
