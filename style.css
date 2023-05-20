@@ -230,6 +230,10 @@
     box-sizing: border-box;
   }
 
+  .cover:hover .cover__overlay{
+    opacity: 0.8;
+  }
+
   .cover__overlay{
     position: absolute;
     bottom: 0;
@@ -286,11 +290,7 @@
     z-index: 2;
   }
 
-  .cover:hover .cover__overlay{
-    opacity: 0.8;
-  }
-
-
+  
   /* footer */
   .footer {
     height: 30px;
