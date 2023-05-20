@@ -1,0 +1,7 @@
+.lead__image{
+    display: grid;
+    position: relative;
+    max-width: 100%;
+    background: #000000;
+    mix-blend-mode: luminosity;
+  }
