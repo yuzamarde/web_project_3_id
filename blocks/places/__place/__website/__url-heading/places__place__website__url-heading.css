@@ -7,3 +7,10 @@
     line-height: 22px;
     color: #FFFFFF;
   }
+
+  @media screen and (max-width : 320px) {
+    .places__place__website__url-heading{
+      max-width: 309px;
+      height: 30px;
+    }
+  }

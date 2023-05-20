@@ -8,3 +8,11 @@
     box-sizing: border-box;
     grid-gap: 10px;
   }
+
+  @media screen and (max-width : 320px) {
+    .photo-grid {
+      max-width: 320px;
+      height: 1812px;;
+      grid-template-columns: auto;
+    }
+  }

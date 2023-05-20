@@ -445,49 +445,48 @@
   
   @media screen and (max-width : 320px) {
       /* header */
-      .header__logo{
+      /* .header__logo{
         max-width: 200px;
         height: 51.85px;
-      }
+      } */
       /* lead */
-      .lead{
+      /* .lead{
         max-width: 100%;
         height: 500px;
-      }
+      } */
     
-      .lead__title{
+      /* .lead__title{
         max-width: 288px;
         font-size: 40px;
         line-height: 44px;
-      }
+      } */
 
-      .lead__subtitle{
+      /* .lead__subtitle{
         max-width: 288px;
         font-size: 16px;
         line-height: 20px;
-      }
+      } */
     
-      .lead__image{
+      /* .lead__image{
         max-width: 100%;
         height: 200px;
-      }
+      } */
     
       /* intro */
-      .intro{
+      /* .intro{
         max-width: 304px;
         height: 928px;
-      }
+      } */
     
-      .intro__title{
+      /* .intro__title{
         font-size: 32px;
         line-height: 35px;
-      }
+      } */
     
-      .intro__text{
+      /* .intro__text{
         max-width: 288px;
       }
-    
-    
+        
       .intro__text:nth-child(1) {
         font-size: 20px;
         line-height: 30px;
@@ -501,30 +500,30 @@
       .intro__text:nth-child(3){
         font-size: 15px;
         line-height: 163%;
-      }
+      } */
 
 
       /* photo-grid */
-      .photo-grid {
+      /* .photo-grid {
         max-width: 320px;
         height: 1812px;;
         grid-template-columns: auto;
-      }
+      } */
       
-      .photo-grid__item{
+      /* .photo-grid__item{
         max-width: 320px;
         height: 216px;
-      }
+      } */
 
       /* places */
 
-      .places {
+      /* .places {
         max-width: 320px;
         height: auto;
         gap: 50px;
-      }
+      } */
       
-      .places__place {
+      /* .places__place {
         margin-left: auto;
         margin-right: auto;
         max-width: 320px;
@@ -532,25 +531,25 @@
         grid-template-columns: 100%;
         grid-column: auto;
         height: fit-content;
-      }
+      } */
       
-      .places__place__title{
+      /* .places__place__title{
         grid-column: 1;
         grid-row: 1;
         max-width: 288px;
         font-weight: 900;
         font-size: 32px;
         line-height: 36px;
-      }
+      } */
     
-      .places__place__image{
+      /* .places__place__image{
         grid-column: 1;
         grid-row: 3;
         max-width: 320px;
         height: 320px;
-      }
+      } */
     
-      .places__place__btn-paragraph{
+      /* .places__place__btn-paragraph{
         grid-column: 1;
         grid-row: 5;
         max-width: 264px;
@@ -560,64 +559,63 @@
         margin-left: auto;
         margin-right: auto;
         margin-top: 20px;
-      }
+      } */
     
-      .places__place__website{
+      /* .places__place__website{
         grid-column: 1;
         grid-row: 2;
         max-width: 288px;
         height: 55px;
-      }
+      } */
         
-      .places__place__website__url-heading{
+      /* .places__place__website__url-heading{
         max-width: 309px;
         height: 30px;
-      }
+      } */
     
-      .places__place__paragraph{
+      /* .places__place__paragraph{
         grid-column: 1;
         grid-row: 4;
         height: fit-content;
         max-width: 100%;
         line-height: 163%;
-      }
+      } */
 
       /* cover */
-      .cover{
+      /* .cover{
         max-width: 320px;
         height: 254px;
         object-fit: fill;
         background-size: cover;
         grid-row-gap: 10px;
         
-      }
+      } */
     
-      .cover__overlay{
+      /* .cover__overlay{
         max-width: 100%;
         height: 100%;
         overflow: hidden;
-      }
+      } */
     
-      .cover__title{
+      /* .cover__title{
         max-width: 100%;
         height: 45px;
         font-size: 32px;
         line-height: 35px;
-      }
+      } */
 
-      .cover__subtitle{
+      /* .cover__subtitle{
         max-width: 280px;
         height: 48px;
         font-size: 14px;
         line-height: 16px;        
-      }
+      } */
 
-      .cover__btn{
+      /* .cover__btn{
         max-width: 80px;
         height: 44px;
         font-size: 15px;
-      }
+      } */
     
       /* footer */
-
-  }
+    }

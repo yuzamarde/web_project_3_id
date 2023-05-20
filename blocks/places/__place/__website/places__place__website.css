@@ -7,3 +7,12 @@
     height: 70px;
     align-self: end;
   }
+
+  @media screen and (max-width : 320px) {
+    .places__place__website{
+      grid-column: 1;
+      grid-row: 2;
+      max-width: 288px;
+      height: 55px;
+    }
+  }

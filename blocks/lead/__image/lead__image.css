@@ -5,3 +5,10 @@
     background: #000000;
     mix-blend-mode: luminosity;
   }
+
+  @media screen and (max-width : 320px) {
+    .lead__image{
+      max-width: 100%;
+      height: 200px;
+    }
+  }

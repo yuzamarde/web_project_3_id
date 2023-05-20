@@ -16,3 +16,14 @@
 .cover:hover .cover__overlay{
     opacity: 0.8;
   }
+
+  @media screen and (max-width : 320px) {
+    .cover{
+      max-width: 320px;
+      height: 254px;
+      object-fit: fill;
+      background-size: cover;
+      grid-row-gap: 10px;
+      
+    }
+  }
