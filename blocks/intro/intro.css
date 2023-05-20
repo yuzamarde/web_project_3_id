@@ -8,16 +8,16 @@
     align-content: space-between;
   }
 
-  @media screen and (max-width : 768px){
+  @media screen and (max-width : 768px) {
     .intro {
-      max-width: 720px;
       height: 600px;
+      max-width: 720px;
     }
   }
 
-  @media screen and (max-width : 320px){
+  @media screen and (max-width : 320px) {
     .intro {
-      max-width: 304px;
       height: 928px;
+      max-width: 304px;
     }
   }
