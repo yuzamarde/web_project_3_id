@@ -2,8 +2,6 @@
     height: 30px;
     margin-left: auto;
     margin-right: auto;
-<<<<<<< HEAD
-=======
   }
     
   @media screen and (max-width : 768px) {
@@ -12,5 +10,4 @@
       margin-left: auto;
       margin-right: auto;
     }
->>>>>>> 7c839322962ed304eef7d67e9379261875f2f811
   }
