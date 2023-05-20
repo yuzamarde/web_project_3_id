@@ -12,3 +12,28 @@
     background-position: center;
     box-sizing: border-box;
   }
+
+.cover:hover .cover__overlay{
+    opacity: 0.8;
+  }
+
+  @media screen and (max-width : 768px) {
+    .cover {
+      display: grid;
+      margin-left: auto;
+      margin-right: auto;
+      align-content: center;
+      max-width: 786px;
+      grid-row-gap: 30px;
+    }
+  }
+
+  @media screen and (max-width : 320px) {
+    .cover {
+      background-size: cover;
+      max-width: 320px;
+      height: 254px;
+      object-fit: fill;
+      grid-row-gap: 10px;
+    }
+  }
