@@ -8,6 +8,13 @@
     align-self: end;
   }
 
+  @media screen and (max-width : 768px) {
+    .places__place__website{
+      max-width: 309px;
+      height: 60px;
+    }
+  }
+
   @media screen and (max-width : 320px) {
     .places__place__website{
       grid-column: 1;

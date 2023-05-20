@@ -10,6 +10,15 @@
     color: #FFFFFF;
   }
 
+  @media screen and (max-width : 768px) {
+    .places__place__paragraph{
+      max-width: 352px;
+      height: fit-content;
+      font-size: 16px;
+    }
+  }
+
+
   @media screen and (max-width : 320px) {
     .places__place__paragraph{
       grid-column: 1;
