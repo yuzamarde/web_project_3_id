@@ -1,0 +1,36 @@
+.places__place__btn-paragraph{
+    grid-column: 1;
+    grid-row: 3;
+    max-width: 304px;
+    height: 48px;
+    font-style: normal;
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    background: #0278FE;
+    color: #fff;
+    border-radius: 5px;
+  }
+
+  @media screen and (max-width : 768px) {
+    .places__place__btn-paragraph{
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 22px;
+    }
+  }
+
+  @media screen and (max-width : 320px) {
+    .places__place__btn-paragraph{
+      grid-column: 1;
+      grid-row: 5;
+      max-width: 264px;
+      height: 44px;
+      font-weight: 500;
+      font-size: 16px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20px;
+    }
+  }

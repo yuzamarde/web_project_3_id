@@ -13,7 +13,6 @@ body {
   flex-wrap: wrap;
   overflow: hidden;
   /* here we've set a maximum page width */
-  /* margin: 0 auto; */
   /* this ensures that all content is centered on screens wider than 1600px */
   font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -44,4 +43,10 @@ span {
 
 button{
   cursor: pointer;
+}
+
+@media screen and (max-width : 320px){
+  .page {
+    gap: 50px;
+  }
 }

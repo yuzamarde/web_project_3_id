@@ -1,0 +1,23 @@
+.intro{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 985px;
+    height: 542px;
+    display: grid;
+    grid-template-columns: auto;
+    align-content: space-between;
+  }
+
+  @media screen and (max-width : 768px) {
+    .intro{
+      max-width: 720px;
+      height: 600px;
+    }
+  }
+
+  @media screen and (max-width : 320px) {
+    .intro{
+      max-width: 304px;
+      height: 928px;
+    }
+  }

@@ -1,0 +1,25 @@
+.places__place__website{
+    grid-column: 2;
+    grid-row: 1;
+    display: grid;
+    grid-column: auto;
+    max-width: 456px;
+    height: 70px;
+    align-self: end;
+  }
+
+  @media screen and (max-width : 768px) {
+    .places__place__website{
+      max-width: 309px;
+      height: 60px;
+    }
+  }
+
+  @media screen and (max-width : 320px) {
+    .places__place__website{
+      grid-column: 1;
+      grid-row: 2;
+      max-width: 288px;
+      height: 55px;
+    }
+  }
