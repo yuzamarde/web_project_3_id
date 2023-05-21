@@ -1,4 +1,4 @@
-.places__place__paragraph{
+.places__paragraph{
     grid-column: 2;
     grid-row: 2/span 2;
     max-width: 484px;
@@ -11,14 +11,14 @@
   }
 
 @media screen and (max-width: 768px) {
-  .places__place__paragraph{
+  .places__paragraph{
     max-width: 352px;
     font-size: 16px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .places__place__paragraph{
+  .places__paragraph{
     grid-column: 1;
     grid-row: 4;
     max-width: 100%;

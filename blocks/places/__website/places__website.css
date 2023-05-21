@@ -1,0 +1,50 @@
+.places__website{
+    grid-column: 2;
+    grid-row: 1;
+    display: grid;
+    max-width: 456px;
+    height: 70px;
+    align-self: end;
+  }
+
+.places__website-artist{
+    max-width: 41px;
+    height: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #AAAAAA;
+  }
+
+.places__website-url-heading{
+    max-width: 456px;
+    height: 44px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+  }
+
+@media screen and (max-width: 768px) {
+  .places__website{
+    max-width: 309px;
+    height: 60px;
+  }
+  .places__website-url-heading{
+    max-width: 309px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places__website{
+    grid-column: 1;
+    grid-row: 2;
+    max-width: 288px;
+    height: 55px;
+  }
+}

@@ -1,4 +1,4 @@
-.places__place__btn-paragraph{
+.places__btn-paragraph{
     grid-column: 1;
     grid-row: 3;
     max-width: 304px;
@@ -14,7 +14,7 @@
   }
 
 @media screen and (max-width: 320px) {
-  .places__place__btn-paragraph{
+  .places__btn-paragraph{
     grid-column: 1;
     grid-row: 5;
     max-width: 264px;

@@ -28,17 +28,15 @@
 
 @import url(../blocks/places/__place/places__place.css);
 
-@import url(../blocks/places/__place/__title/places__place__title.css);
+@import url(../blocks/places/__title/places__title.css);
 
-@import url(../blocks/places/__place/__image/places__place__image.css);
+@import url(../blocks/places/__image/places__image.css);
 
-@import url(../blocks/places/__place/__btn-paragraph/places__place__btn-paragraph.css);
+@import url(../blocks/places/__btn-paragraph/places__btn-paragraph.css);
 
-@import url(../blocks/places/__place/__website/places__place__website.css);
-@import url(../blocks/places/__place/__website/__artist/places__place__website__artist.css);
-@import url(../blocks/places/__place/__website/__url-heading/places__place__website__url-heading.css);
+@import url(../blocks/places/__website/places__website.css);
 
-@import url(../blocks/places/__place/__paragraph/places__place__paragraph.css);
+@import url(../blocks/places/__paragraph/places__paragraph.css);
 
 /* cover */
 @import url(../blocks/cover/cover.css);
