@@ -4,7 +4,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 90%;
-    height: 740px;
+    min-height: 740px;
     background-image: url(/images/__background.png);
     align-content: center;
     grid-row-gap: 30px;
@@ -26,7 +26,7 @@
 @media screen and (max-width: 320px) {
   .cover {
     max-width: 320px;
-    height: 254px;
+    min-height: 254px;
     object-fit: fill;
     grid-row-gap: 10px;
   }

@@ -1,7 +1,3 @@
-body {
-  background: #2A2C2F;
-}
-
 .page {
   min-width: 360px;
   /* we don't know how to make mobile versions of websites yet, */
@@ -11,7 +7,6 @@ body {
   grid-column: auto;
   gap: 100px;
   flex-wrap: wrap;
-  overflow: hidden;
   /* here we've set a maximum page width */
   /* this ensures that all content is centered on screens wider than 1600px */
   font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
@@ -23,26 +18,6 @@ body {
   text-rendering: optimizeLegibility;
   background: #2A2C2F;
   z-index: 1;
-}
-
-h1, h2, h3, h4, h5, h6, p, li, a{
-  margin: 0;
-  color: #FFFFFF;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0px;
-  margin: 0px;
-}
-
-span {
-  display: block;
-  margin-top: 10px;
-}
-
-button{
-  cursor: pointer;
 }
 
 @media screen and (max-width: 320px) {

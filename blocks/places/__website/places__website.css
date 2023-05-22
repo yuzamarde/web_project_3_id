@@ -9,7 +9,6 @@
 
 .places__website-artist{
     max-width: 41px;
-    height: 15px;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -21,7 +20,6 @@
 
 .places__website-url-heading{
     max-width: 456px;
-    height: 44px;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -32,7 +30,6 @@
 @media screen and (max-width: 768px) {
   .places__website{
     max-width: 309px;
-    height: 60px;
   }
   .places__website-url-heading{
     max-width: 309px;
@@ -45,6 +42,5 @@
     grid-column: 1;
     grid-row: 2;
     max-width: 288px;
-    height: 55px;
   }
 }
