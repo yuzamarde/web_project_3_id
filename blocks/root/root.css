@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Inter";
+  src: url(/fonts/static/Inter-Regular.ttf);
+}
 .page {
   min-width: 360px;
   /* we don't know how to make mobile versions of websites yet, */
