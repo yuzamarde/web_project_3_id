@@ -2,14 +2,13 @@
   min-width: 360px;
   /* we don't know how to make mobile versions of websites yet, */
   /* so here we've set a minimum page width */
-  max-width: 1780px;
   display: grid;
   grid-column: auto;
   gap: 100px;
   flex-wrap: wrap;
   /* here we've set a maximum page width */
   /* this ensures that all content is centered on screens wider than 1600px */
-  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Inter", 'Helvetica Neue', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
