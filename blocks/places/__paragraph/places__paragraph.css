@@ -2,12 +2,24 @@
     grid-column: 2;
     grid-row: 2/span 2;
     max-width: 484px;
-    height: fit-content;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 163%;
     color: #FFFFFF;
+    margin-top: 10px;
+  }
+
+  .places__paragraph:nth-child(1){
+    height: fit-content;
+  }
+
+  .places__paragraph:nth-child(2){
+    height: fit-content;
+  }
+
+  .places__paragraph:nth-child(3){
+    height: fit-content;
   }
 
 @media screen and (max-width: 768px) {

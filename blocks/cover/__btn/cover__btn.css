@@ -12,6 +12,12 @@
     color: #fff;
     border-radius: 5px;
     z-index: 2;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
 @media screen and (max-width: 320px) {
