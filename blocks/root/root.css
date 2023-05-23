@@ -40,6 +40,6 @@
 @media screen and (max-width: 320px) {
   .page {
     min-width: 100%;
-    gap: 100p;
+    gap: 80px;
   }
 }
