@@ -1,7 +1,15 @@
 @font-face {
   font-family: "Inter";
-  src: url(/fonts/static/Inter-Regular.ttf);
+  src: url(/fonts/moved_Inter-Regular.woff);
+  font-weight: normal;
 }
+
+@font-face {
+  font-family: "Inter";
+  src: url(/fonts/moved_Inter-Bold.woff2);
+  font-weight: bold;
+}
+
 .page {
   min-width: 360px;
   /* we don't know how to make mobile versions of websites yet, */
@@ -23,8 +31,15 @@
   z-index: 1;
 }
 
+@media screen and (max-width: 768px) {
+  .page {
+    min-width: 100%;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .page {
-    gap: 50px;
+    min-width: 100%;
+    gap: 100p;
   }
 }

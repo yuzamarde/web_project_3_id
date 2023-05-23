@@ -11,10 +11,13 @@
     z-index: 2;
     color: #FFFFFF;
   }
+
+  
   
 @media screen and (max-width: 768px) {
   .cover__title{
     max-width: 656px;
+    min-width: 320px;
   }
 }
 
