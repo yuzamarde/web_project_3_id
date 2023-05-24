@@ -18,6 +18,8 @@ Ini adalah proyek yang menampilkan kampung halaman beberapa karyawan Practicum. 
 
 Cara kamu melakukannya di tempat kerja adalah dengan mengekspor gambar langsung dari dari Figma — kami sarankan melakukan itu untuk berlatih lebih banyak. Jangan lupa untuk mengoptimalkannya [di sini] (https://tinypng.com/), sehingga proyek kamu dimuat lebih cepat.
 
+https://yuzamarde.github.io/web_project_3_id/
+
 
 <h1 align="center">Hi 👋, I'm yuza</h1>
 <h3 align="center">A passionate frontend developer from indonesia</h3>
