@@ -19,17 +19,17 @@ Ini adalah proyek yang menampilkan kampung halaman beberapa karyawan Practicum. 
 Cara kamu melakukannya di tempat kerja adalah dengan mengekspor gambar langsung dari dari Figma — kami sarankan melakukan itu untuk berlatih lebih banyak. Jangan lupa untuk mengoptimalkannya [di sini] (https://tinypng.com/), sehingga proyek kamu dimuat lebih cepat.
 
 
-**NEEDS CORRECTING-1**
-Untuk menghubungkan font Inter ke halaman, Anda perlu mengunduh file font dalam bentuk arsip dan menghubungkannya menggunakan @font-face. Saat ini, font yang ditampilkan di halaman berbeda. https://skr.sh/sJwVYc8WseC
-Tolong tengahkan konten pada layar yang besar. https://skr.sh/sJwGvXWjUKE
+<h1 align="center">Hi 👋, I'm yuza</h1>
+<h3 align="center">A passionate frontend developer from indonesia</h3>
 
+- 📫 How to reach me **yuzamarde@gmail.com**
 
-**NEEDS CORRECTING-2**
-Ada satu fon yang tidak ditentukan dengan benar. Font Inter belum terhubung ke halaman. Silakan sertakan semua varian yang diperlukan menggunakan @font-face di file vendor/fonts.css.
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://dribbble.com/riyanyuza" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/dribbble.svg" alt="riyanyuza" height="30" width="40" /></a>
+<a href="https://www.behance.net/riyanyuza" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/behance.svg" alt="riyanyuza" height="30" width="40" /></a>
+</p>
 
-Tampilan dengan lebar 1000px atau lebih memiliki pengguliran horizontal. Muncul scroll horizontal antara breakpoint. Periksa lebar tetap, ukuran font, dan margin horizontal pada blok dan elemen.
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> </p>
 
-Jangan menggunakan gaya overflow: hidden atau overflow-x: hidden https://skr.sh/sJyg90j0ldd https://skr.sh/sJytWD07lbM https://skr.sh/sJyknN1rWk1 https://skr.sh/sJywM3MpgwG https://skr.sh/sJyHjfF1iX7
-Kesalahan kritis yang ditemukan pada tinjauan (atau beberapa tinjauan) sebelumnya belum diperbaik. 
-
-Belum ada perbaikan pada komentar di file readme.md dari iterasi sebelumnya. Mohon perbaiki komentar di file readme.md (Anda dapat menemukannya di tab "History").
