@@ -1,15 +1,3 @@
-@font-face {
-  font-family: "Inter";
-  src: url(/fonts/moved_Inter-Regular.woff);
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "Inter";
-  src: url(/fonts/moved_Inter-Bold.woff2);
-  font-weight: bold;
-}
-
 .page {
   min-width: 360px;
   /* we don't know how to make mobile versions of websites yet, */
