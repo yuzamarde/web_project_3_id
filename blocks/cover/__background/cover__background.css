@@ -3,10 +3,9 @@
     max-width: 100%;
     min-height: 740px;
     object-fit: cover;
-    position: absolute;
     left: 50%;
     -webkit-transform: translateX(-50%);
-    transform: translateX(-50%)
+    transform: translateX(-50%);
 }
 
 @media screen and (max-width: 320px) {
