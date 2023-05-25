@@ -1,0 +1,15 @@
+.cover__background{
+    position: absolute;
+    max-width: 100%;
+    min-height: 740px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 320px) {
+    .cover__background {
+      max-width: 320px;
+      min-height: 254px;
+      object-fit: fill;
+      grid-row-gap: 10px;
+    }
+  }
