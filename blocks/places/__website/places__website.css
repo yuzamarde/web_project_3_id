@@ -3,7 +3,6 @@
     grid-row: 1;
     display: grid;
     max-width: 456px;
-    height: 45px;
     align-self: end;
   }
 
@@ -33,7 +32,6 @@
   }
   .places__website-url-heading{
     max-width: 309px;
-    height: 30px;
     font-size: 16px;
   }
 }
